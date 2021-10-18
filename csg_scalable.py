@@ -104,4 +104,4 @@ csg = ConnectedSparseGraph(M, directed=False)
 csg.build()
 # %%
 
-gt.graph_draw(csg)
+gt.graph_draw(csg, vertex_size=2)
