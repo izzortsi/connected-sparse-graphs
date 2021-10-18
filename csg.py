@@ -22,11 +22,11 @@ class ConnectedSparseGraph(Graph):
         self.M = M
         self.d = d
         self.n = len(M)
-        self.D = self._compute_distances()
+        # self.D = self.compute_distances()
 
         super().__init__(**kwargs)
 
-    def _compute_distances(self):
+    def compute_distances(self):
 
         M = self.M
         d = self.d
