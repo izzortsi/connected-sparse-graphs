@@ -9,7 +9,6 @@ from matplotlib import cm
 import matplotlib.colors as mplc
 import os, sys
 from gi.repository import Gtk, Gdk, GdkPixbuf, GObject, GLib
-from SAN.plot_functions import *
 from sklearn.neighbors import NearestNeighbors
 
 
